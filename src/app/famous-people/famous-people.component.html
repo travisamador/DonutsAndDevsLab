@@ -1,0 +1,18 @@
+<div class="linkContainer">
+  <a class="home" routerLink="/home">Home</a>
+  <br />
+  <a routerLink="/donuts">Donuts</a>
+  <br />
+</div>
+
+<h1>Devs</h1>
+<h2>Click below to view info on a dev</h2>
+
+<div class="devContainer">
+  <a
+    *ngFor="let p of people.complete"
+    routerLink="/famouspeople/{{ p.firstName }}{{ p.lastName }}"
+    ><div class="dev">{{ p.firstName }} {{ p.lastName }}</div>
+    <br />
+  </a>
+</div>

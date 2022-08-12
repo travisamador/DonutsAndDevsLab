@@ -1,0 +1,12 @@
+h1,h2{
+    text-align: center;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: center;   
+}
+
+.link{
+    margin-right: 1%;
+}

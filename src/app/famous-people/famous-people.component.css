@@ -1,0 +1,21 @@
+h1,h2{
+    text-align: center;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: center;   
+}
+
+.home{
+    margin-right: 1%;
+}
+
+.devContainer{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.dev{
+    margin-bottom: 1px;
+}

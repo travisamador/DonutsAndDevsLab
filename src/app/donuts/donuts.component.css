@@ -1,0 +1,21 @@
+h1,h2{
+    text-align: center;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: center;   
+}
+
+.home{
+    margin-right: 1%;
+}
+
+.donutContainer{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.donut{
+    margin-bottom: 1px;
+}

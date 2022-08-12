@@ -1,0 +1,23 @@
+h1, h2{
+text-align: center;
+}
+
+.buttonContainer{
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.donutButton{
+    height: 15%;
+    width: 20%;
+    padding: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.devButton{
+    height: 15%;
+    width: 20%;
+    padding: 5%;
+}

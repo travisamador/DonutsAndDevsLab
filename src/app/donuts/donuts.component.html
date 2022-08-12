@@ -1,0 +1,12 @@
+<div class="linkContainer">
+  <a class="home" routerLink="/home">Home</a>
+  <a routerLink="/famouspeople">Devs</a>
+</div>
+<h1>Donuts</h1>
+<h2>Click below to view info on a donut of your choosing.</h2>
+<div class="donutContainer">
+  <a *ngFor="let d of donuts.results" routerLink="/donuts/{{ d.id }}"
+    ><div class="donut">{{ d.name }}</div>
+    <br
+  /></a>
+</div>
